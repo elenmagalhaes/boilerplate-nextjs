@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test": "jest"
   },
   "dependencies": {
     "next": "13.4.13",
@@ -23,7 +22,6 @@
     "@next/eslint-plugin-next": "^13.4.13",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
-    "@types/jest": "^29.5.3",
     "@types/node": "20.4.10",
     "@types/react": "18.2.20",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
