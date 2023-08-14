@@ -19,8 +19,9 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "npm run lint --fix",
-      "jest --bail"
+      "eslint --fix",
+      "git add",
+      "jest --bail --findRelatedTests"
     ]
   },
   "dependencies": {
