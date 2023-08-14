@@ -12,6 +12,11 @@
     "test:watch": "npm test -- --watch",
     "test:ci": "jest --ci"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "npm run lint --fix"
