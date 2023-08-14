@@ -19,9 +19,9 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "eslint --fix",
+      "yarn lint --fix",
       "git add",
-      "jest --bail --findRelatedTests"
+      "yarn test --bail --findRelatedTests"
     ]
   },
   "dependencies": {
