@@ -20,7 +20,6 @@
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix",
-      "git add",
       "yarn test --bail --findRelatedTests"
     ]
   },
