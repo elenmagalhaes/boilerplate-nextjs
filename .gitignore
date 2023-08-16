@@ -36,3 +36,7 @@ next-env.d.ts
 
 # editor config
 .vscode
+
+# sw stuff
+public/sw.js
+public/workbox-*.js
