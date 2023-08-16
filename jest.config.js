@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const nextJest = require('next/jest')
 
 const createJestConfig = nextJest({
@@ -12,7 +13,7 @@ const customJestConfig = {
   testPathIgnorePatterns: ['/node_modules/', '/.next/', '/src/pages'],
   coveragePathIgnorePatterns: ['/node_modules/', '/.next/', '/src/pages'],
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)']
+  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/*.stories.tsx']
 }
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
