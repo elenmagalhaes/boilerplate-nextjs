@@ -29,7 +29,7 @@
     "@storybook/addon-knobs": "^7.0.2",
     "@storybook/addon-links": "^7.3.0",
     "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/blocks": "^7.3.0",
+    "@storybook/blocks": "^7.5.2",
     "@storybook/nextjs": "^7.3.0",
     "@storybook/react": "^7.3.0",
     "@storybook/testing-library": "^0.2.0",
